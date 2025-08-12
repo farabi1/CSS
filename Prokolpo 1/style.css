@@ -16,6 +16,9 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
+    position: relative;
+
+    z-index: 2;
 }
 
 nav ul li{
@@ -47,4 +50,18 @@ nav ul li a{
     font-size: 18px;
     margin-top: 50px;
     border-radius: 6px;
+}
+.user-box{
+    background: #d9e0ff;
+    position: absolute;
+    top: 0;
+    right: 12%;
+    z-index: 1;
+}
+
+.user-box img{
+    display: block;
+    padding-top: 100px;
+    width: 410px;
+    margin-bottom: -205px;
 }
